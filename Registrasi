@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="tampildata.js"></script>
+<title>
+Registrasi
+</title>
+<script>
+console.log("I love my Live");
+</script>
+<link rel="StyleSheet"
+type="text/css"href="">
+</head>
+<body>
+	<table style="background-color:#b3e1ee" height="auto" width="auto" border="1" padding="10px">
+		<tr valign="top" border="0">
+			<td class="h3" id=menu align="left">
+				<h3 alignment="center">
+					<p>Email 
+                    </br>
+                    <input type="text" id="input_form" />
+                    </p>
+                    <p>Nama Lengkap 
+                    </br>
+                    <input type="text" id="input_data" />
+                    </p>
+                    <p>Jurusan            :<select>
+                        <option value="Sleman">Sleman</option>
+                        <option value="kulon Progo">Kulon Progo</option>
+                        <option value="Bantul">Bantul</option>
+                        <option value="Sleman">Sleman</option>
+                        <option value="Kota Yogyakarta">Kota Yogyakarta</option>
+                    </select>
+                     </p>
+                     <p>Alamat Lengkap
+                    </br>
+                    <input type="text" id="input_data2" />
+                    </p>
+                    <button id="tombol_p">Registrasi</button>
+ 
+                </h3>
+                <h4>Hasil: <span id="hasil"></span></h4>
+			</td>
+			
+	</table>
+</body>
+</html>
